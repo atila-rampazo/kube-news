@@ -109,3 +109,4 @@ iac/terraform.tfvars
 iac/.terraform      
 iac/.terraform.backup
 iac/.terraform.lock.hcl
+iac/kube_config.yaml
