@@ -19,7 +19,7 @@ jobs:
           password: ${{secrets.REGISTRY_PWD}}
           
       - name: Construindo a imagem e fazendo o build          
-      - uses: docker/build-push-action@v3.0.0
+        uses: docker/build-push-action@v3.0.0
         with:
           file: ./src/Dockerfile
           context: ./src/
