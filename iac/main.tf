@@ -18,7 +18,7 @@ resource "digitalocean_kubernetes_cluster" "k8s_iniciativa" {
 
   node_pool {
     name       = "default"
-    size       = "s-2vcpu-4gb"
+    size       = "s-2vcpu-2gb"
     node_count = 2
   }
 }
