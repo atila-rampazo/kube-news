@@ -105,8 +105,5 @@ node_modules/
 
 *.Identifier
 
-iac/terraform.tfvars
-iac/.terraform      
-iac/.terraform.backup
-iac/.terraform.lock.hcl
-iac/kube_config.yaml
+.idea
+/iac/
